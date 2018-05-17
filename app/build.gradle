@@ -37,7 +37,7 @@ android {
 
 
     useLibrary 'org.apache.http.legacy'
-    defaultConfig.applicationId = "org.telegram.messenger"
+    defaultConfig.applicationId = "eu.bubu1.mxmessenger"
 
     sourceSets.main.jniLibs.srcDirs = ['./jni/']
 
@@ -74,7 +74,7 @@ android {
         }
     }
 
-    defaultConfig.versionCode = 1157
+    defaultConfig.versionCode = 1
 
     sourceSets.debug {
         manifest.srcFile 'config/debug/AndroidManifest.xml'
@@ -151,7 +151,7 @@ android {
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 25
-        versionName "4.6.0b"
+        versionName "0.0.1"
 
         //obtain your own keys at https://core.telegram.org/api/obtaining_api_id
         buildConfigField 'int', 'APP_ID', getAppId()

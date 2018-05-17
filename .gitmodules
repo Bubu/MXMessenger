@@ -1,9 +1,9 @@
-[submodule "TMessagesProj/jni/libtgvoip"]
-	path = TMessagesProj/jni/libtgvoip
+[submodule "app/jni/libtgvoip"]
+	path = app/jni/libtgvoip
 	url = https://github.com/grishka/libtgvoip
-[submodule "TMessagesProj/jni/libwebp"]
-	path = TMessagesProj/jni/libwebp
+[submodule "app/jni/libwebp"]
+	path = app/jni/libwebp
 	url = https://github.com/webmproject/libwebp
-[submodule "TMessagesProj/jni/ffmpeg"]
-	path = TMessagesProj/jni/ffmpeg
+[submodule "app/jni/ffmpeg"]
+	path = app/jni/ffmpeg
 	url = https://github.com/FFmpeg/FFmpeg
